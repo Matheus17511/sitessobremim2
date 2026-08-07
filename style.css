@@ -1,0 +1,55 @@
+
+
+body {
+    max-width: 100vw;
+}
+
+header {
+    background-color: #181550;
+    border: solid thick black;
+    color: #ACC8E5;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+small {
+    font-weight: bold;
+}
+
+main {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagem {
+    width: 120px;
+    height: 150px;
+}
+
+.imagem-pintura {
+    height: 150px;
+}
+
+button {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+article div {
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-left: 10px;
+    margin-right: 120px;
+    border-style: solid;
+    border-color: black;
+    background-color: #0054B4;
+    color: white;
+    border-radius: 0 30px 30px 30px;
+
+}
+
+article {
+    display: flex;
+}
