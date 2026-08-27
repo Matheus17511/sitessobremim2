@@ -15,4 +15,14 @@ likes.forEach(function (like) { //fiz que por cada botão que tem a função "li
             curtiu = false; // torna "curtiu" em falso.
         }
     }
-});
+})
+const botaoTemaEscuro = document.querySelector(".botao-tema-escuro");
+botaoTemaEscuro.addEventListener("click", mudarTema);
+function mudarTema() {
+    const Corpo = document.body;
+    if (Corpo.classList.contains("tema-escuro")) {
+        Corpo.classList.remove("tema-escuro");
+    } else {
+        Corpo.classList.add("tema-escuro");
+    }
+};
