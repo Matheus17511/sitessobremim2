@@ -24,5 +24,4 @@ function mudarTema() {
         Corpo.classList.remove("tema-escuro");
     } else {
         Corpo.classList.add("tema-escuro");
-    }
-};
+    }};
